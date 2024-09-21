@@ -1,0 +1,23 @@
+{
+    "id":"TASCNoAtmo",
+	"name":"Terra & Stat Con - No Atmosphere Bandaid",
+	"author":"Shoey",
+    "utility":"true",
+    "version": { "major":"0", "minor": "1", "patch": "0" },
+	"description":"Bandaid fix for TASC's station atmosphere bug.",
+    "gameVersion": "0.97a-RC11",
+  	"jars":["jars/example.jar"],
+  	"modPlugin":"Shoey.tascNoAtmo.MainPlugin",
+	"dependencies": [
+		{
+			"id": "lunalib",
+			"name": "LunaLib",
+			"version": "1.8.4"
+		},
+		{
+			"id": "Terraforming & Station Construction",
+			"name": "Terraforming & Station Construction",
+			"version": "9.0.9"
+		}
+	]
+}
